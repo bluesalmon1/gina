@@ -1,9 +1,9 @@
 style.css
 <body>
-<div> {box-sizing: border-box
-padding: 4px 4px 4px 4px
-border: 1px solid black
-margin: 10px
+<div> {box-sizing: border-box;
+padding: 4px 4px 4px 4px;
+border: 1px solid black;
+margin: 10px;
 width: 300px;
 float: left}
 </div>
