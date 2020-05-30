@@ -1,12 +1,11 @@
 style.css
 <body>
-<div> {box-sizing: border-box;
+{box-sizing: border-box;
 padding: 4px 4px 4px 4px;
 border: 1px solid black;
 margin: 10px;
-width: 300px;
+width: 40%;
 float: left}
-</div>
 
 #box1 {background-color: lightgreen}
 #box2 {background-color: lightgray}
