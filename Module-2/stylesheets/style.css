@@ -1,14 +1,15 @@
 style.css
-* {box-sizing: border-box}
-
-
-#box1 {box-sizing: border-box
-background-color: lightgreen
+<body>
+<div> {box-sizing: border-box
 padding: 4px 4px 4px 4px
 border: 1px solid black
 margin: 10px
 width: 300px;
 float: left}
+</div>
+
+#box1 {background-color: lightgreen}
 #box2 {background-color: lightgray}
 #box3 {background-color: lightblue}
 h1 {color:blue}
+</body>
