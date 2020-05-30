@@ -1,17 +1,16 @@
 style.css
 <body>
-{box-sizing: border-box;
-padding: 4px 4px 4px 4px;
+
+* {box-sizing: border-box;}
+
+<p>
+{padding: 4px 4px 4px 4px;
 border: 1px solid black;
 margin: 10px;
 width: 40%;
-float: left}
+float: left;}
 
-#box1 {background-color: lightgreen; box-sizing: border-box;
-padding: 4px 4px 4px 4px;
-border: 1px solid black;
-margin: 10px;
-width: 40%}
+#box1 {background-color: lightgreen}
 #box2 {background-color: lightgray}
 #box3 {background-color: lightblue}
 h1 {color:blue}
