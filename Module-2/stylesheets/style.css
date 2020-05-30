@@ -4,7 +4,8 @@ h1 {color:blue}
 padding: 4px 4px 4px 4px
 border: 1px solid black
 margin: 10px
+width: 50%;
 float: left}
 #box1 {background-color: lightgreen}
-#box2 {background-color: gray}
+#box2 {background-color: lightgray}
 #box3 {background-color: lightblue}
