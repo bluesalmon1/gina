@@ -12,6 +12,8 @@ style.css
 /*** Small Devices ***/
 @media (max-width: 767px)
 
+h1 {color:blue; text-align: center;}
+h2 {position: absolute; right: 5px;top: 5px}
 
 p {padding: 4px 4px 4px 4px;
 border: 1px solid black;
@@ -23,6 +25,5 @@ float: left;}
 #box2 {background-color: lightgray}
 #box3 {background-color: lightblue}
 
-h1 {color:blue; text-align: center;}
-h2 {position: absolute; right: 5px;top: 5px}
+
 </body>
