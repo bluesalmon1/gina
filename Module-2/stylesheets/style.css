@@ -18,13 +18,24 @@ h2 {position: absolute; right: 5px; top: 5px}
 #box3 {background-color: lightblue}
 
 /*** Large Devices ***/
-@media (min-width: 992px)
+@media (min-width: 992px) {
+	#box1 {width: 30%}
+	#box2 {width: 30%}
+	#box3 {width: 30%}
+}
 
 /*** Medium Devices ***/
-@media (min-width: 768px) and (max-width: 991px)
-
+@media (min-width: 768px) and (max-width: 991px) {
+	#box1 {width: 45%}
+	#box2 {width: 45%}
+	#box3 {width: 90%; float: left}
+}
 /*** Small Devices ***/
-@media (max-width: 767px)
+@media (max-width: 767px) {
+	#box1 {width: 90%}
+	#box2 {width: 90%; float: left}
+	#box3 {width: 90%; float: left}
+}
 
 
 
