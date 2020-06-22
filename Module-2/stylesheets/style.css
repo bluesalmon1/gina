@@ -1,7 +1,7 @@
 style.css
 <body>
 
-* {box-sizing: border-box;}
+* {box-sizing: border-box; font-family: Helvetica}
 
 h1 {color: blue; text-align: center}
 
@@ -11,9 +11,13 @@ margin: 10px;
 width: 40%;
 float: left;}
 
-h2 {position: absolute; right: 5px; top: 5px}
+h2 {
+	position: absolute; 
+	right: 5px; top: 5px
+	width: 80px
+}
 
-#box1 {background-color: lightgreen; postion: relative;}
+#box1 {background-color: lightgreen}
 #box2 {background-color: lightgray}
 #box3 {background-color: lightblue}
 
@@ -28,7 +32,7 @@ h2 {position: absolute; right: 5px; top: 5px}
 @media (min-width: 768px) and (max-width: 991px) {
 	#box1 {width: 45%}
 	#box2 {width: 45%}
-	#box3 {width: 90%; float: left}
+	#box3 {width: 100%; float: left}
 }
 /*** Small Devices ***/
 @media (max-width: 767px) {
