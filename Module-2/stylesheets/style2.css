@@ -1,0 +1,51 @@
+style2.css
+<body>
+
+* {box-sizing: border-box; font-family: Helvetica}
+
+h1 {color: blue; text-align: center}
+
+h2 {
+	position: relative; 
+	right: 2px; top: 2px;
+	width: 80px
+}
+
+div {padding: 4px 4px 4px 4px;
+border: 1px solid black;
+margin: 10px;
+width: 40%;
+float: left;}
+
+p {padding: 4px 4px 4px 4px;
+border: 1px solid black;
+margin: 10px;
+width: 40%;
+float: left;}
+
+#box1 {background-color: lightgreen}
+#box2 {background-color: lightgray}
+#box3 {background-color: lightblue}
+
+/*** Large Devices ***/
+@media (min-width: 992px) {
+	#box1 {width: 30%}
+	#box2 {width: 30%}
+	#box3 {width: 30%}
+}
+
+/*** Medium Devices ***/
+@media (min-width: 768px) and (max-width: 991px) {
+	#box1 {width: 45%}
+	#box2 {width: 45%}
+	#box3 {width: 100%; float: left}
+}
+/*** Small Devices ***/
+@media (max-width: 767px) {
+	#box1 {width: 90%}
+	#box2 {width: 90%; float: left}
+	#box3 {width: 90%; float: left}
+}
+
+
+</body>
