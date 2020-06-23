@@ -1,7 +1,7 @@
 style.css
 <body>
 
-* {box-sizing: border-box; font-family: Helvetica}
+* {box-sizing: border-box; font-family: Courier;}
 
 h1 {color: blue; text-align: center}
 
@@ -32,7 +32,7 @@ float: left;}
 @media (min-width: 768px) and (max-width: 991px) {
 	#box1 {width: 45%}
 	#box2 {width: 45%}
-	#box3 {width: 100%; float: left}
+	#box3 {width: 95%; float: left}
 }
 /*** Small Devices ***/
 @media (max-width: 767px) {
