@@ -12,11 +12,6 @@ width: 40%;
 float: left;}
 
 #box1 {background-color: lightgreen}
-#title1 {position: relative; 
-	right: 2px; top: 2px;
-	background-color: blue; 
-	font-color: white; 
-	border: 1px solid black;}
 #box2 {background-color: lightgray}
 #box3 {background-color: lightblue}
 
