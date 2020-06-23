@@ -1,7 +1,7 @@
 style.css
 <body>
 
-* {box-sizing: border-box; font-family: Helvetica; }
+* {box-sizing: border-box;  }
 
 h1 {color: blue; text-align: center}
 
@@ -14,14 +14,15 @@ float: left;}
 span {padding: 1px 1px 1px 1px;
 	border: 1px solid black;
 	margin: 1px;
-	position: absolute; 
+	position: relative; 
 	right: 2px; top: 2px; 
 	width: 120px;
-	font-size: 16pt;}
+	font-size: 16pt;
+	text-align: center;}
 
-#box1 {background-color: lightgreen;}
-#box2 {background-color: lightgray; }
-#box3 {background-color: lightblue; }
+#box1 {background-color: lightgreen; font-family: Helvetica;}
+#box2 {background-color: lightgray; font-family: Helvetica;}
+#box3 {background-color: lightblue; font-family: Helvetica;}
 
 #title1 {background-color: blue; font-color: white;}
 
