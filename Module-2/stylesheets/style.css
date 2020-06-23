@@ -5,19 +5,18 @@ style.css
 
 h1 {color: blue; text-align: center}
 
-div {padding: 4px 4px 4px 4px;
+p {padding: 4px 4px 4px 4px;
 border: 1px solid black;
 margin: 10px;
 width: 40%;
 float: left;}
 
-p {{background-color: 
-	blue; font-color: white; 
-	position: relative; 
-	right: 2px; top: 2px;
-	width: 80px}}
-
 #box1 {background-color: lightgreen}
+#title1 {position: relative; 
+	right: 2px; top: 2px;
+	background-color: blue; 
+	font-color: white; 
+	border: 1px solid black;}
 #box2 {background-color: lightgray}
 #box3 {background-color: lightblue}
 
