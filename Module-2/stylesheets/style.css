@@ -11,12 +11,6 @@ h2 {
 	width: 80px
 }
 
-div {padding: 4px 4px 4px 4px;
-border: 1px solid black;
-margin: 10px;
-width: 40%;
-float: left;}
-
 p {padding: 4px 4px 4px 4px;
 border: 1px solid black;
 margin: 10px;
@@ -46,11 +40,5 @@ float: left;}
 	#box2 {width: 90%; float: left}
 	#box3 {width: 90%; float: left}
 }
-
-
-
-
-
-
 
 </body>
