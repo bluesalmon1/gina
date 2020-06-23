@@ -1,21 +1,21 @@
 style.css
 <body>
 
-* {box-sizing: border-box; font-family: Courier}
+* {box-sizing: border-box; }
 
 h1 {color: blue; text-align: center}
 
-p {padding: 4px 4px 4px 4px;
+div {padding: 4px 4px 4px 4px;
 border: 1px solid black;
 margin: 10px;
 width: 40%;
 float: left;}
 
-h2 {
+p {{background-color: 
+	blue; font-color: white; 
 	position: relative; 
 	right: 2px; top: 2px;
-	width: 80px
-}
+	width: 80px}}
 
 #box1 {background-color: lightgreen}
 #box2 {background-color: lightgray}
