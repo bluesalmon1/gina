@@ -11,9 +11,18 @@ margin: 10px;
 width: 40%;
 float: left;}
 
-#box1 {background-color: lightgreen}
+span {padding: 1px 1px 1px 1px;
+	border: 1px solid black;
+	margin: 1px;
+	position: relative; 
+	right: 2px; top: 2px; 
+	width: 80px;}
+
+#box1 {background-color: lightgreen; font-family: Helvetica;}
 #box2 {background-color: lightgray}
 #box3 {background-color: lightblue}
+
+#title1 {background-color: blue; font-color: white;}
 
 /*** Large Devices ***/
 @media (min-width: 992px) {
