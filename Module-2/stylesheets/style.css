@@ -6,26 +6,44 @@ style.css
 h1 {color: blue; text-align: center}
 
 p {padding: 4px 4px 4px 4px;
-border: 2px solid black;
+border: 3px solid black;
 margin: 10px;
 width: 40%;
 float: left;}
-
-span {border: 2px solid black;
-	bottom-margin: 5px;
-	position: relative; 
-	float: left; 
-	width: 150px;
-	font-size: 16pt;
-	text-align: center;}
 
 #box1 {background-color: lightgreen; font-family: Helvetica;}
 #box2 {background-color: lightgray; font-family: Helvetica;}
 #box3 {background-color: lightblue; font-family: Helvetica;}
 
 #title1 {background-color: blue; 
-	font-color: lightgreen; 
-}
+	border: 3px solid black;
+	bottom-margin: 10px;
+	position: relative; 
+	top: 0px; left: 0px; 
+	width: 150px
+	font-color: yellow
+	font-size: 16pt;
+	text-align: center;}
+
+	#title2 {background-color: red; 
+	border: 3px solid black;
+	bottom-margin: 10px;
+	position: relative; 
+	top: 0px; left: 0px; 
+	width: 150px
+	font-color: black
+	font-size: 16pt;
+	text-align: center;}
+
+	#title3 {background-color: green; 
+	border: 3px solid black;
+	bottom-margin: 10px;
+	position: relative; 
+	top: 0px; left: 0px; 
+	width: 150px
+	font-color: white
+	font-size: 16pt;
+	text-align: center;}
 
 /*** Large Devices ***/
 @media (min-width: 992px) {
