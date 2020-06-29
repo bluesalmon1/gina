@@ -13,6 +13,16 @@ h1 {color: blue; text-align: center}
 	width: 40%;
 	float: left;}
 
+#title1 {background-color: blue; 
+	border: 3px solid black;
+	bottom-margin: 10px;
+	position: relative; 
+	top: 0px; left: 0px; 
+	width: 150px
+	font-color: yellow
+	font-size: 16pt;
+	text-align: center;}
+
 #box2 {background-color: lightgray; 
 	font-family: Helvetica;
 	padding: 4px 4px 4px 4px;
@@ -29,15 +39,6 @@ h1 {color: blue; text-align: center}
 	width: 40%;
 	float: left;}
 
-#title1 {background-color: blue; 
-	border: 3px solid black;
-	bottom-margin: 10px;
-	position: relative; 
-	top: 0px; left: 0px; 
-	width: 150px
-	font-color: yellow
-	font-size: 16pt;
-	text-align: center;}
 
 #title2 {background-color: red; 
 	border: 3px solid black;
